@@ -30,7 +30,7 @@ const Box = (props) => {
       onPointerDown={(e) => (ref.current.position.y += 1)}
       onPointerUp={(e) => (ref.current.position.y -= 1)}>
       <boxGeometry />
-      <meshBasicMaterial color={red} wireframe />
+      <meshBasicMaterial color={0x00ff00} wireframe />
     </mesh>
   )
 }
